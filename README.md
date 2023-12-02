@@ -30,6 +30,9 @@ Color transformation: Change the color image to a grayscale image
 
 **[⬆ back to top](#Windowed-Image-Processing-Program)**
 
+
+
+
 <h2 id="2">Smooth Filter (Mean and Median)</h2>
 
 Implement mean and median filters
@@ -38,11 +41,16 @@ Filter size: 3x3
 
 ![圖片](https://github.com/YeeHaoSu/Windowed-Image-Processing-Program/assets/90921571/bb3581de-26ce-47f2-b615-8b687cd28ce0)
 
+**[⬆ back to top](#Windowed-Image-Processing-Program)**
+
+
 <h2 id="3">Histogram Equalization</h2>
 
 Implement histogram equalization: Show histogram of images before and after processing
 
 ![圖片](https://github.com/YeeHaoSu/Windowed-Image-Processing-Program/assets/90921571/3b86927a-afaf-4f73-b90a-3a439e288d6a)
+
+**[⬆ back to top](#Windowed-Image-Processing-Program)**
 
 
 <h2 id="4">User-Defined Thresholding</h2>
@@ -53,6 +61,8 @@ The threshold is input from the slider (1 ~ 255) on the interface.  ![圖片](ht
 
 ![圖片](https://github.com/YeeHaoSu/Windowed-Image-Processing-Program/assets/90921571/79343402-4f7e-496a-a374-f9aa6cdfe58b)
 
+**[⬆ back to top](#Windowed-Image-Processing-Program)**
+
 
 <h2 id="5">Sobel Edge Detection</h2>
 
@@ -61,9 +71,13 @@ The program incorporates Sobel edge detection by applying it separately in the h
 ![圖片](https://github.com/YeeHaoSu/Windowed-Image-Processing-Program/assets/90921571/72e5754f-6468-4271-af07-81ced35d378e)
 
 
+**[⬆ back to top](#Windowed-Image-Processing-Program)**
+
 <h2 id="6">Edge Overlapping</h2>
 
 ![圖片](https://github.com/YeeHaoSu/Windowed-Image-Processing-Program/assets/90921571/fa545757-9f1d-4ea5-96e3-2ec42e345ce6)
+
+**[⬆ back to top](#Windowed-Image-Processing-Program)**
 
 
 <h2 id="7">Connected Component</h2>
@@ -79,6 +93,7 @@ Adjacent regions are displayed in different colors.
 
 ![圖片](https://github.com/YeeHaoSu/Windowed-Image-Processing-Program/assets/90921571/fd58ce16-60ea-4f6f-9b98-321ca26398db)
 
+**[⬆ back to top](#Windowed-Image-Processing-Program)**
 
 
 <h2 id="8">Image Registration</h2>
@@ -102,4 +117,5 @@ $$ i_p: Intensity\ of\ point\ p  $$
 
 ![圖片](https://github.com/YeeHaoSu/Windowed-Image-Processing-Program/assets/90921571/5405d6c2-3b66-4bac-bb52-948cb3dc6182)
 
+**[⬆ back to top](#Windowed-Image-Processing-Program)**
 
