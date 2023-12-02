@@ -1,4 +1,4 @@
-![圖片](https://github.com/YeeHaoSu/Windowed-Image-Processing-Program/assets/90921571/428f578a-5759-43c0-887e-ca300c2eb41b)# Windowed-Image-Processing-Program
+# Windowed-Image-Processing-Program
 
 ![圖片](https://github.com/YeeHaoSu/Windowed-Image-Processing-Program/assets/90921571/ecff771d-e064-4a48-89fd-704c93ba6567)
 
@@ -24,7 +24,7 @@ Extract the R, G, and B channels from the color image and transform it into a gr
 
 Color extraction: Extract R, G, and B channels to each image
 
-Color transformation: Change the color image to a gray scale image
+Color transformation: Change the color image to a grayscale image
 
 ![圖片](https://github.com/YeeHaoSu/Windowed-Image-Processing-Program/assets/90921571/70286b7a-8cba-4a20-ab08-550923dc5ee3) ![圖片](https://github.com/YeeHaoSu/Windowed-Image-Processing-Program/assets/90921571/61acfd0d-710e-40f4-bdf8-7ed7fad08f9d)
 
@@ -81,14 +81,21 @@ Adjacent regions are displayed in different colors.
 
 <h2 id="8">Image Registration</h2>
 
-![圖片](https://github.com/YeeHaoSu/Windowed-Image-Processing-Program/assets/90921571/3ddeba8b-12d8-42ce-9631-8bc82a91351f)
+![圖片](https://github.com/YeeHaoSu/Windowed-Image-Processing-Program/assets/90921571/8d09077a-7f2a-48c6-b91f-fecdba11ac59)
 
 Given two images A and B, B is a transformation of A by scaling and rotation. Register image B to image A.
 
-Find 
-(1) the scaling factor 𝑠 of the registration and(2) the rotation angle 𝜃(clockwise) and
-(3) Evaluate the difference between image A and registered image
-		Intensity difference𝐷_𝑝𝑖𝑥𝑒𝑙=1/|𝐼|  ∑_(𝑝∈𝐼)▒〖|(𝑖_𝑝 ) ̂−𝑖_𝑝 |〗,𝐼:𝑝𝑜𝑖𝑛𝑡𝑠 𝑖𝑛 𝑖𝑚𝑎𝑔𝑒, 𝑖_𝑝:𝑖𝑛𝑡𝑒𝑛𝑠𝑖𝑡𝑦 𝑜𝑓 𝑝𝑜𝑖𝑛𝑡 𝑝
+1. The scaling factor 𝑠 of the registration
+
+2. The rotation angle 𝜃(clockwise)
+
+3. Evaluate the difference between image A and the registered image Intensity difference.
+
+$$ D_{pixel}=\frac{1}{\left|I\right|}\sum_{p\in I}{|\widehat{i_p}-i_p|} $$
+
+$$ I: Points\ in\ image $$
+
+$$ i_p: Intensity\ of\ point\ p  $$  
 
 
 ![圖片](https://github.com/YeeHaoSu/Windowed-Image-Processing-Program/assets/90921571/5405d6c2-3b66-4bac-bb52-948cb3dc6182)
